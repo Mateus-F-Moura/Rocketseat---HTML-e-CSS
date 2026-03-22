@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 80px 100px;
+  background-color: #121212;
+  color: #eeeeee;
+}
+
+.cabecalho-pagina {
+  max-width: 1400px;
+  margin: 0 auto 20px auto;
+  padding: 0 20px;
+}
+
+.cabecalho-pagina h2 {
+  font-size: 18px;
+  color: #aaa;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.cabecalho-pagina h1 {
+  font-size: 32px;
+  margin-top: 0;
+}
+
+.container-layout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 60px;
+  max-width: 1400px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 65%;
+}
+
+.imagem-destaque {
+  width: 100%;
+
+  max-height: 400px;
+
+  object-fit: cover;
+
+  border-radius: 16px;
+}
+
+.texto-principal {
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 30px;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+.menu-lateral {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 30%;
+}
+
+.card {
+  border: 2px solid #444;
+  border-radius: 16px;
+  padding: 80px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card:hover {
+  border-color: #aaa;
+  background-color: #222;
+}
+
+.card.active {
+  border-color: #ffffff;
+}
+
+a {
+  color: #5693ee;
+}
